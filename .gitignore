@@ -1,0 +1,29 @@
+# Environment / secrets
+.env
+*.env
+
+# Python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Vector store / data
+vector_db/
+chroma_db/
+
+# Media files (large, shouldn't be in git)
+*.wav
+*.mp3
+*.mp4
+
+# Downloaded files folder
+downloads/
+download/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
